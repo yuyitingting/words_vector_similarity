@@ -6,7 +6,7 @@
     项目文件下运行： python3 homework.py zhwiki-20191120-pages-articles-multistream.xml.bz2 wiki.zh.txt
     转换后的文件：wiki.zh.txt
 3.训练语料由繁体转换为简体中文
-    项目文件下运行：python3.7 -m opencc -c t2s -i /Users/yaoyao/PycharmProjects/computer_language/wiki.zh.txt -o /Users/yaoyao/PycharmProjects/computer_language/wiki.zh.simple.txt
+    项目文件下运行：python3.7 -m opencc -c t2s -i 项目路径/wiki.zh.txt -o 项目路径/wiki.zh.simple.txt
     转换后的文件：wiki.zh.simple.txt
 4.切分简体中文语料（jieba）
     对应的代码：cut.py
